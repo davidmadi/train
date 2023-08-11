@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.9.2
 WORKDIR /usr/src/app
 RUN python -m pip install -U pip
 

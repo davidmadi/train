@@ -3,7 +3,7 @@ removeImage() {
 }
 
 docker-compose down
-    removeImage
+removeImage
 
 docker-compose up
 
