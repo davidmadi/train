@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app-api:
+    build:
+      context: .
+      dockerfile: app-api.Dockerfile
+    ports:
+      - 7860:7860
